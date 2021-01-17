@@ -8,18 +8,22 @@ class TrafficsController < ApplicationController
   end
 
   def get_details
-    @traffics = Traffic.where(:company_url => params[:company_url])
+    @traffics = Traffic.where(:company_url => params[:company_url]).order("record_date DESC")
   end
 
   def groups
     company_url = params[:company_url]
     sql = "SELECT
-      to_char(record_date, 'YYYY month') as traffic_month,
-      SUM(page_views_per_million) as total_traffic
+      to_char(record_date, 'YYYY-MM') as traffic_month,
+      CAST(SUM(page_views_per_million) as INT) as total_traffic,
+      CAST(avg(rank) as INT) as average_rank
       FROM traffics
       WHERE company_url='#{company_url}'
-      GROUP BY traffic_month;"
-    @traffics = Traffic.connection.execute(sql)    
+      GROUP BY traffic_month
+      ORDER BY traffic_month;      
+      "
+    @traffics = Traffic.connection.execute(sql)
+    @data = @traffics.to_a.collect{ |data| data.values }
   end
 
   # GET /traffics/1

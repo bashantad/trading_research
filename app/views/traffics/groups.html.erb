@@ -1,27 +1,27 @@
 <%= params[:company_url] %>
-<table class="table">
-  <thead>
-    <tr>
-      <th>Month</th>
-      <th>Traffic</th> 
-      <th>Growth</th>
-      <th>Details</th>
-    </tr>
-  </thead>
-  <% last_traffic = 1 %>
-  <tbody>
-    <% @traffics.to_a.each_with_index do |traffic, index| %>
-      <tr>      
-        <td><%= traffic["traffic_month"] %></td>
-        <td><%= traffic["total_traffic"] %></td>
-        <td>
-          <% if index > 0 %>
-            <%= get_growth_percentage(last_traffic, traffic["total_traffic"]) %>
-          <% end %>
-        </td>
-        <td> <%= link_to "Details", get_details_traffics_path(:company_url => params[:company_url]), :target => "_blank" %></td>
-        <% last_traffic = traffic["total_traffic"] %>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+
+
+
+<div id="chart" style="width: auto; height: 600px;"></div>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<%= javascript_tag do -%>
+  google.charts.load('current', {'packages':['bar']});
+  google.charts.setOnLoadCallback(drawChart);
+
+  function drawChart() {
+    var data = JSON.parse('<%= @data.to_json.html_safe -%>');
+    data = [['Year/Month', 'Traffic', 'Rank']].concat(data);
+    data = google.visualization.arrayToDataTable(data);
+    var options = {
+      chart: {
+        title: 'Traffic by month',
+      }
+    };
+
+    var chart = new google.charts.Bar(document.getElementById('chart'));
+    chart.draw(data, google.charts.Bar.convertOptions(options));
+  }
+<% end -%>
+
+<%= render "group_stat" %>

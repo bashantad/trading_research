@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_17_025408) do
+ActiveRecord::Schema.define(version: 2021_01_17_055710) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -24,6 +24,8 @@ ActiveRecord::Schema.define(version: 2021_01_17_025408) do
     t.string "company_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["company_url", "record_date"], name: "index_traffics_on_company_url_and_record_date", unique: true
+    t.index ["company_url"], name: "index_traffics_on_company_url"
   end
 
 end
