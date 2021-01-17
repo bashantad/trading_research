@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Record date:</strong>
+  <%= @traffic.record_date %>
+</p>
+
+<p>
+  <strong>Page views per million:</strong>
+  <%= @traffic.page_views_per_million %>
+</p>
+
+<p>
+  <strong>Page views per user:</strong>
+  <%= @traffic.page_views_per_user %>
+</p>
+
+<p>
+  <strong>Rank:</strong>
+  <%= @traffic.rank %>
+</p>
+
+<p>
+  <strong>Reach per million:</strong>
+  <%= @traffic.reach_per_million %>
+</p>
+
+<%= link_to 'Edit', edit_traffic_path(@traffic) %> |
+<%= link_to 'Back', traffics_path %>

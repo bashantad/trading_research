@@ -1,0 +1,29 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Record date</th>
+      <th>Page views per million</th>
+      <th>Page views per user</th>
+      <th>Rank</th>
+      <th>Reach per million</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @traffics.each do |traffic| %>
+      <tr>
+        <td><%= traffic.company_url %></td>
+        <td><%= traffic.record_date %></td>
+        <td><%= traffic.page_views_per_million %></td>
+        <td><%= traffic.page_views_per_user %></td>
+        <td><%= traffic.rank %></td>
+        <td><%= traffic.reach_per_million %></td>
+        <td>
+          <%= link_to 'Details', groups_traffics_path(:company_url => traffic.company_url) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: alexa_research_development
+  host: localhost
+  port: 5432
+
+test:
+  <<: *default
+  database: alexa_research_test
+
+production:
+  <<: *default
+  database: alexa_research_production
+  username: alexa_research
+  password: <%= ENV['ALEXA_RESEARCH_DATABASE_PASSWORD'] %>

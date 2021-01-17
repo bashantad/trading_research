@@ -1,0 +1,19 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @traffics.each do |traffic| %>
+      <tr>
+        <td><%= traffic["company_url"] %></td>
+        <td>
+          <%= link_to 'Details', groups_traffics_path(:company_url => traffic["company_url"]) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

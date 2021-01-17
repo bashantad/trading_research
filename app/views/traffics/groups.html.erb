@@ -1,0 +1,27 @@
+<%= params[:company_url] %>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Traffic</th> 
+      <th>Growth</th>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <% last_traffic = 1 %>
+  <tbody>
+    <% @traffics.to_a.each_with_index do |traffic, index| %>
+      <tr>      
+        <td><%= traffic["traffic_month"] %></td>
+        <td><%= traffic["total_traffic"] %></td>
+        <td>
+          <% if index > 0 %>
+            <%= get_growth_percentage(last_traffic, traffic["total_traffic"]) %>
+          <% end %>
+        </td>
+        <td> <%= link_to "Details", get_details_traffics_path(:company_url => params[:company_url]), :target => "_blank" %></td>
+        <% last_traffic = traffic["total_traffic"] %>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

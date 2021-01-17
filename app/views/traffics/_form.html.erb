@@ -1,0 +1,42 @@
+<%= form_with(model: traffic, local: true) do |form| %>
+  <% if traffic.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(traffic.errors.count, "error") %> prohibited this traffic from being saved:</h2>
+
+      <ul>
+        <% traffic.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :record_date %>
+    <%= form.text_field :record_date %>
+  </div>
+
+  <div class="field">
+    <%= form.label :page_views_per_million %>
+    <%= form.text_field :page_views_per_million %>
+  </div>
+
+  <div class="field">
+    <%= form.label :page_views_per_user %>
+    <%= form.text_field :page_views_per_user %>
+  </div>
+
+  <div class="field">
+    <%= form.label :rank %>
+    <%= form.number_field :rank %>
+  </div>
+
+  <div class="field">
+    <%= form.label :reach_per_million %>
+    <%= form.text_field :reach_per_million %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
