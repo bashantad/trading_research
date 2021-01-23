@@ -1,0 +1,5 @@
+/node_modules
+api_key.txt
+.alexa.credentials
+response.json
+alexa_password.txt
