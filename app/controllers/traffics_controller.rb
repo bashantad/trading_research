@@ -20,10 +20,39 @@ class TrafficsController < ApplicationController
       FROM traffics
       WHERE company_url='#{company_url}'
       GROUP BY traffic_month
-      ORDER BY traffic_month;      
-      "
+      ORDER BY traffic_month;"
     @traffics = Traffic.connection.execute(sql)
+    @traffics = accumulate_data(@traffics)
     @data = @traffics.to_a.collect{ |data| data.values }
+  end
+
+  def get_default_row(row)
+    {
+      "traffic_month" => row["traffic_month"],
+      "total_traffic" => 0,
+      "average_rank" => 0
+    }
+  end
+
+  def accumulate_data(data)
+    result = []
+    index = 0
+    current_row = get_default_row(data.first)    
+    data.to_a.each do |row|
+      if(index%3 == 0)
+        if(index != 0)
+          result << current_row
+        end
+        index = 0        
+        current_row = get_default_row(row)
+      end
+      current_row["total_traffic"] += row["total_traffic"]
+      current_row["average_rank"] += row["average_rank"]
+      index = index + 1
+    end
+    if current_row["total_traffic"] > 0
+      result << current_row
+    end
   end
 
   # GET /traffics/1
