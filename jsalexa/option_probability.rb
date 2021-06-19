@@ -1,14 +1,26 @@
 require 'csv'
 require 'time'
-date_range = (2011..2020)
-start_time_month = "01-25"
-end_day_month = "06-10"
+date_range = (2015..2020)
+start_time_month = "05-04"
+end_day_month = "05-10"
+def format_price(price)
+	result = price.to_s
+	if result[0] == "$" 
+		result[1..-1]
+	else
+		result
+	end
+end
+
 def get_price(result_hash, date)
 	result = nil
 	index = 0
 	loop do
 		start_time  = Time.parse(date)
-		parsed_time = start_time.strftime("%m/%d/%Y")
+		#date_format = "%m/%d/%Y"
+		date_format = "%Y-%m-%d"
+		parsed_time = start_time.strftime(date_format)
+		#puts parsed_time + result_hash[parsed_time].to_s
 		if result_hash[parsed_time] || index > 10
 			result = result_hash[parsed_time]
 			break
@@ -17,12 +29,12 @@ def get_price(result_hash, date)
 		next_day = start_time.day + 1
 		date = start_time.year.to_s + "-" + start_time.month.to_s + "-" + next_day.to_s
 	end
-	result
+	format_price(result)	
 end
 
 data = CSV.read(ARGV[0])
-result_hash = data.collect{ |row| [row[0], row.last.strip[1..7]] }.to_h
-
+result_hash = data.collect{ |row| [row[0], row[1].strip] }.to_h
+puts result_hash
 date_range.to_a.each do |year|
 	start_time = "#{year}-#{start_time_month}"
 	end_time = "#{year}-#{end_day_month}"

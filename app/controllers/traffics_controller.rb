@@ -1,7 +1,6 @@
 class TrafficsController < ApplicationController
   before_action :set_traffic, only: [:show, :edit, :update, :destroy]
 
-
   def index      
     sql = "SELECT distinct(company_url) as company_url from traffics"
     @traffics = Traffic.connection.execute(sql)    
@@ -13,10 +12,11 @@ class TrafficsController < ApplicationController
 
   def groups
     company_url = params[:company_url]
+    ranking_divider = 10000
     sql = "SELECT
       to_char(record_date, 'YYYY-MM') as traffic_month,
       CAST(SUM(page_views_per_million) as INT) as total_traffic,
-      CAST(avg(rank) as INT) as average_rank
+      CAST(avg(rank)/#{ranking_divider} as INT) as average_rank
       FROM traffics
       WHERE company_url='#{company_url}'
       GROUP BY traffic_month
@@ -35,19 +35,20 @@ class TrafficsController < ApplicationController
   end
 
   def accumulate_data(data)
+    no_of_month_avg = 3
     result = []
     index = 0
     current_row = get_default_row(data.first)    
     data.to_a.each do |row|
-      if(index%3 == 0)
+      if(index%no_of_month_avg == 0)
         if(index != 0)
           result << current_row
         end
         index = 0        
         current_row = get_default_row(row)
       end
-      current_row["total_traffic"] += row["total_traffic"]
-      current_row["average_rank"] += row["average_rank"]
+      current_row["total_traffic"] += row["total_traffic"].to_i
+      current_row["average_rank"] += row["average_rank"].to_i
       index = index + 1
     end
     if current_row["total_traffic"] > 0

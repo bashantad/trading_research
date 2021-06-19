@@ -10,10 +10,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_17_055710) do
+ActiveRecord::Schema.define(version: 2021_06_19_061558) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "top_sites", force: :cascade do |t|
+    t.string "company_url"
+    t.integer "global_rank"
+    t.float "page_views_per_million"
+    t.float "page_views_per_user"
+    t.integer "country_rank"
+    t.float "reach_per_million"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "traffics", force: :cascade do |t|
     t.date "record_date"
