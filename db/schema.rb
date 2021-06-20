@@ -10,10 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_19_061558) do
+ActiveRecord::Schema.define(version: 2021_06_19_214937) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "site_histories", force: :cascade do |t|
+    t.string "company_url"
+    t.bigint "top_site_id"
+    t.string "engagement_string"
+    t.string "country"
+    t.integer "country_rank"
+    t.integer "start_rank"
+    t.integer "end_rank"
+    t.float "daily_page_views"
+    t.float "daily_page_views_percentage"
+    t.float "daily_time_on_site"
+    t.float "daily_time_on_site_percentage"
+    t.float "bounce_rate"
+    t.float "bounce_rate_percentage"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["top_site_id"], name: "index_site_histories_on_top_site_id"
+  end
 
   create_table "top_sites", force: :cascade do |t|
     t.string "company_url"
@@ -39,4 +58,5 @@ ActiveRecord::Schema.define(version: 2021_06_19_061558) do
     t.index ["company_url"], name: "index_traffics_on_company_url"
   end
 
+  add_foreign_key "site_histories", "top_sites"
 end

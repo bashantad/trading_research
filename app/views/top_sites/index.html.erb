@@ -1,0 +1,23 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>Company</th>
+      <th>Start rank</th>
+      <th>End rank</th>
+      <th>Country rank</th>
+      <th>Change %</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @histories.each do |history| %>
+      <tr>
+        <td><%= link_to history.company_url, "https://alexa.com/siteinfo/#{history.company_url}#section_traffic", target: '_blank' %></td>
+        <td><%= history.start_rank %></td>
+        <td><%= history.end_rank %></td>
+        <td><%= history.country_rank %>: <%= history.country %></td>
+        <td><%= history.abs_percentage.round(2) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
