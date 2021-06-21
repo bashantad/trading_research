@@ -42,16 +42,53 @@ RSpec.describe TrafficsController, type: :controller do
 		[]
 	end
 
-	it "records responses" do
-		sites = TopSite::TOP_SITES_500.shuffle
+	xit "records Alexa history" do
+		sites = finished_sites
 		filtered_sites = sites.reject { |a| a.include?(".gov") || a.include?(".edu") }
 		arr = (2..5).to_a
-		(filtered_sites - finished_sites).each do |sitename|
+		(filtered_sites).each do |sitename|
 			begin
 				fetch_traffic(sitename)
 				puts "Finished fetching data for #{sitename}"
 			rescue => e
 				puts "===== had an issue with #{sitename}"
+			end
+			interval = arr.sample
+			sleep interval
+		end
+	end
+
+	def fetch_website_name(name)			
+		name = name.gsub("Common Stock", "")
+		visit "https://www.bing.com/search?q=#{name} Website"
+		website = all("#b_results .b_algo").first.find(".b_attribution").text
+		data = {
+			name: name,
+			website: website
+		}
+		open(Rails.root.join("spec/controllers/website_mapping.txt"), 'a') do |f|
+  			f.puts data
+		end
+	end
+
+	def company_names
+		file_path = Rails.root.join("spec/controllers/tech_stock_names.txt")
+		companies = []
+		File.open(file_path, "r") do |f|
+			f.each_line do |line|
+				companies << line.strip
+			end
+		end
+		companies[1..-1]
+	end
+
+	it "records stocks with it's website" do
+		arr = (2..5).to_a
+		(company_names.uniq[6..-1]).each do |company_name|
+			begin
+				fetch_website_name(company_name)				
+			rescue => e
+				puts "===== had an issue with #{company_name}"
 			end
 			interval = arr.sample
 			sleep interval

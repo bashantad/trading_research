@@ -1,0 +1,6 @@
+{:name=>"Apple", :website=>"https://www.apple.com"}
+{:name=>"ABM Industries Incorporated", :website=>"https://www.abm.com"}
+{:name=>"ACE Convergence Acquisition", :website=>"acev.io/home/default.aspx"}
+{:name=>"ACI Worldwide", :website=>"https://www.aciworldwide.com"}
+{:name=>"Axcelis Technologies", :website=>"https://www.axcelis.com"}
+{:name=>"ACM Research", :website=>"https://www.acmrcsh.com"}

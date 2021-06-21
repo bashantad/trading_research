@@ -1,0 +1,24 @@
+{:name=>"Accenture plc (Ireland)", :website=>"https://www.accenture.com/ie-en"}
+{:name=>"ACV Auctions", :website=>"https://www.acvauctions.com"}
+{:name=>"AeroCentury Corp.", :website=>"www.aerocentury.com"}
+{:name=>"Adobe", :website=>"https://www.adobe.com"}
+{:name=>"Analog Devices", :website=>"https://www.analog.com"}
+{:name=>"Automatic Data Processing", :website=>"https://www.adp.com"}
+{:name=>"Autodesk", :website=>"https://www.autodesk.com"}
+{:name=>"Advantage Solutions", :website=>"https://advantagesolutions.net"}
+{:name=>"AerCap Holdings N.V.", :website=>"https://www.aercap.com"}
+{:name=>"AudioEye", :website=>"https://www.audioeye.com"}
+{:name=>"Affirm Holdings", :website=>"https://www.affirm.com"}
+{:name=>"AGM Group Holdings", :website=>"www.agmprime.com"}
+{:name=>"Agilysys", :website=>"https://agilysys.com"}
+{:name=>"C3.ai", :website=>"https://c3.ai"}
+{:name=>"Airgain", :website=>"https://airgain.com"}
+{:name=>"Air Lease Corporation", :website=>"https://airleasecorp.com"}
+{:name=>"ALFI", :website=>"www.alfi.com"}
+{:name=>"Allegro MicroSystems", :website=>"https://www.allegromicro.com"}
+{:name=>"Alkami Technology", :website=>"https://www.alkami.com"}
+{:name=>"AstroNova", :website=>"https://astronovainc.com"}
+{:name=>"Alarm.com Holdings", :website=>"https://alarm.com"}
+{:name=>"Alta Equipment Group", :website=>"altaequipment.com"}
+{:name=>"Altair Engineering", :website=>"https://www.altair.com"}
+{:name=>"Alithya Group Subordinate", :website=>"https://alithya.com"}

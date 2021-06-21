@@ -12,6 +12,7 @@ class SiteHistory < ApplicationRecord
 		  f.each_line do |line|
 		  	parsed = JSON.parse(line)
 		  	company_url = parsed.delete("sitename")
+		  	next if company_url.include?(".gov") || company_url.include?(".edu")
 		  	top_site = TopSite.where(:company_url => company_url).first
 		  	parsed["company_url"] = company_url
 		  	parsed["top_site_id"] = top_site.id
