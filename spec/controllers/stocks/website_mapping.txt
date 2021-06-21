@@ -1,0 +1,699 @@
+{:name=>"Apple", :website=>"https://www.apple.com"}
+{:name=>"ABM Industries Incorporated", :website=>"https://www.abm.com"}
+{:name=>"ACE Convergence Acquisition", :website=>"acev.io/home/default.aspx"}
+{:name=>"ACI Worldwide", :website=>"https://www.aciworldwide.com"}
+{:name=>"Axcelis Technologies", :website=>"https://www.axcelis.com"}
+{:name=>"ACM Research", :website=>"https://www.acmrcsh.com"}
+{:name=>"Accenture plc (Ireland)", :website=>"https://www.accenture.com/ie-en"}
+{:name=>"ACV Auctions", :website=>"https://www.acvauctions.com"}
+{:name=>"AeroCentury Corp.", :website=>"www.aerocentury.com"}
+{:name=>"Adobe", :website=>"https://www.adobe.com"}
+{:name=>"Analog Devices", :website=>"https://www.analog.com"}
+{:name=>"Automatic Data Processing", :website=>"https://www.adp.com"}
+{:name=>"Autodesk", :website=>"https://www.autodesk.com"}
+{:name=>"Advantage Solutions", :website=>"https://advantagesolutions.net"}
+{:name=>"AerCap Holdings N.V.", :website=>"https://www.aercap.com"}
+{:name=>"AudioEye", :website=>"https://www.audioeye.com"}
+{:name=>"Affirm Holdings", :website=>"https://www.affirm.com"}
+{:name=>"AGM Group Holdings", :website=>"www.agmprime.com"}
+{:name=>"Agilysys", :website=>"https://agilysys.com"}
+{:name=>"C3.ai", :website=>"https://c3.ai"}
+{:name=>"Airgain", :website=>"https://airgain.com"}
+{:name=>"Air Lease Corporation", :website=>"https://airleasecorp.com"}
+{:name=>"ALFI", :website=>"www.alfi.com"}
+{:name=>"Allegro MicroSystems", :website=>"https://www.allegromicro.com"}
+{:name=>"Alkami Technology", :website=>"https://www.alkami.com"}
+{:name=>"AstroNova", :website=>"https://astronovainc.com"}
+{:name=>"Alarm.com Holdings", :website=>"https://alarm.com"}
+{:name=>"Alta Equipment Group", :website=>"altaequipment.com"}
+{:name=>"Altair Engineering", :website=>"https://www.altair.com"}
+{:name=>"Alithya Group Subordinate", :website=>"https://alithya.com"}
+{:name=>"Ambarella Inc.", :website=>"https://www.ambarella.com"}
+{:name=>"Advanced Micro Devices", :website=>"https://www.amd.com"}
+{:name=>"Amkor Technology", :website=>"https://amkor.com"}
+{:name=>"Amesite", :website=>"https://amesite.com"}
+{:name=>"American Software", :website=>"https://www.amsoftware.com"}
+{:name=>"American Well Corporation", :website=>"americanwellcorp.com"}
+{:name=>"Arista Networks", :website=>"https://www.arista.com/en"}
+{:name=>"Angi", :website=>"https://www.angi.com"}
+{:name=>"ANSYS", :website=>"https://www.ansys.com"}
+{:name=>"AirNet Technology Inc.", :website=>"www.airnettechnology.com"}
+{:name=>"Alpha and Omega Semiconductor Limited", :website=>"aosmd.com"}
+{:name=>"Agora Inc.", :website=>"https://investor.agora.io"}
+{:name=>"Applovin Corporation", :website=>"https://www.applovin.com"}
+{:name=>"AppFolio", :website=>"https://www.appfolio.com"}
+{:name=>"Appian Corporation", :website=>"https://appian.com"}
+{:name=>"Digital Turbine", :website=>"https://www.digitalturbine.com"}
+{:name=>"Apex Technology Acquisition Corporation", :website=>"https://apexacquisitioncorp.com"}
+{:name=>"Array Technologies", :website=>"https://ir.arraytechinc.com"}
+{:name=>"Arrow Electronics", :website=>"https://www.arrow.com"}
+{:name=>"Asana", :website=>"https://asana.com"}
+{:name=>"ASGN Incorporated", :website=>"https://www.asgn.com"}
+{:name=>"ASML Holding N.V. New York Registry Shares", :website=>"https://www.asml.com/en/investors/shares"}
+{:name=>"Asure Software Inc", :website=>"https://www.asuresoftware.com"}
+{:name=>"ASE Technology Holding Co. Ltd.", :website=>"https://www.aseglobal.com/en"}
+{:name=>"Amtech Systems", :website=>"https://www.amtechsystems.com"}
+{:name=>"A10 Networks", :website=>"https://www.a10networks.com"}
+{:name=>"Atkore", :website=>"https://www.atkore.com"}
+{:name=>"Atomera Incorporated", :website=>"https://atomera.com"}
+{:name=>"Activision Blizzard", :website=>"https://www.activisionblizzard.com"}
+{:name=>"Auddia", :website=>"https://auddia.com"}
+{:name=>"Auddias", :website=>"https://www.adidas.com"}
+{:name=>"American Virtual Cloud Technologies", :website=>"https://www.ir.avctechnologies.com"}
+{:name=>"American Virtual Cloud Technologies expiring 4/7/2025", :website=>"https://fintel.io/sm/us/avctw"}
+{:name=>"Broadcom", :website=>"https://www.broadcom.com"}
+{:name=>"Broadcom Inc. 8.00% Mandatory", :website=>"https://investors.broadcom.com/node/52641/html"}
+{:name=>"Avid Technology", :website=>"https://www.avid.com"}
+{:name=>"Avalara", :website=>"https://www.avalara.com"}
+{:name=>"Avnet", :website=>"https://www.avnet.com"}
+{:name=>"Avaya Holdings Corp.", :website=>"https://avaya.com"}
+{:name=>"Aware", :website=>"https://www.aware-inc.org"}
+{:name=>"AXT Inc", :website=>"axt.com"}
+{:name=>"Alteryx", :website=>"https://www.alteryx.com"}
+{:name=>"Aspen Technology", :website=>"https://www.aspentech.com"}
+{:name=>"Bandwidth", :website=>"https://www.bandwidth.com"}
+{:name=>"BlackBerry Limited", :website=>"https://www.blackberry.com"}
+{:name=>"Barrett Business Services", :website=>"https://www.bbsi.com"}
+{:name=>"Brightcove", :website=>"https://www.brightcove.com"}
+{:name=>"Beam Global", :website=>"https://beamforall.com"}
+{:name=>"BGSF", :website=>"https://bgsf.com"}
+{:name=>"Benchmark Electronics", :website=>"https://www.bench.com"}
+{:name=>"Baidu Inc. ADS", :website=>"https://adchina.io/baidu-advertising"}
+{:name=>"BigCommerce Holdings Inc. Series 1", :website=>"https://fintel.io/sf/us/bigc"}
+{:name=>"Bilibili Inc.", :website=>"https://www.bilibili.com/aboutus"}
+{:name=>"Bill.com Holdings", :website=>"https://www.bill.com"}
+{:name=>"Black Knight", :website=>"https://www.blackknightinc.com"}
+{:name=>"BK Technologies Corporation", :website=>"https://www.bktechnologies.com"}
+{:name=>"BlackLine", :website=>"https://www.blackline.com"}
+{:name=>"BlueCity Holdings Limited", :website=>"https://ir.blue-city.com"}
+{:name=>"Ballard Power Systems Inc.", :website=>"https://www.ballard.com"}
+{:name=>"Bridgeline Digital", :website=>"https://www.bridgeline.com"}
+{:name=>"Blackbaud", :website=>"https://www.blackbaud.com"}
+{:name=>"Bumble", :website=>"https://bumble.com"}
+{:name=>"BM Technologies", :website=>"https://ir.bmtxinc.com/overview/default.aspx"}
+{:name=>"Benefitfocus", :website=>"https://www.benefitfocus.com"}
+{:name=>"Boston Omaha Corporation", :website=>"https://bostonomaha.com"}
+{:name=>"B.O.S. Better Online Solutions", :website=>"https://www.boscom.com"}
+{:name=>"Box", :website=>"https://www.box.com"}
+{:name=>"Brooks Automation Inc.", :website=>"https://www.brooks.com"}
+{:name=>"BSQUARE Corporation", :website=>"https://www.bsquare.com"}
+{:name=>"Bentley Systems Incorporated", :website=>"https://www.bentley.com"}
+{:name=>"BTRS Holdings Inc.", :website=>"https://investors.billtrust.com/ir-resources/investor-faqs"}
+{:name=>"CACI International", :website=>"https://www.caci.com"}
+{:name=>"CAI International", :website=>"https://www.capps.com"}
+{:name=>"Calix Inc", :website=>"https://www.calix.com"}
+{:name=>"Canaan Inc.", :website=>"https://www.canaaninc.org"}
+{:name=>"Cango Inc.", :website=>"ir.cangoonline.com"}
+{:name=>"Casa Systems", :website=>"https://www.casa-systems.com"}
+{:name=>"CMC Materials", :website=>"https://www.cmcmaterials.com"}
+{:name=>"Clear Channel Outdoor Holdings", :website=>"https://clearchanneloutdoor.com"}
+{:name=>"Cross Country Healthcare $0.0001 Par Value", :website=>"https://www.crosscountryhealthcare.com/"}
+{:name=>"Ceridian HCM Holding", :website=>"https://www.ceridian.com"}
+{:name=>"Cardlytics", :website=>"https://www.cardlytics.com"}
+{:name=>"Cadence Design Systems", :website=>"https://www.cadence.com"}
+{:name=>"CDW Corporation", :website=>"https://www.cdw.com"}
+{:name=>"Cemtrex", :website=>"https://www.cemtrex.com"}
+{:name=>"Cemtrex Inc. Series 1", :website=>"https://www.cemtrex.com"}
+{:name=>"CEVA", :website=>"https://www.cevalogistics.com"}
+{:name=>"Cognyte Software Ltd.", :website=>"https://www.cognyte.com"}
+{:name=>"Check Point Software Technologies Ltd.", :website=>"https://www.checkpoint.com"}
+{:name=>"Change Healthcare", :website=>"https://www.changehealthcare.com"}
+{:name=>"Change Healthcare Inc. Tangible Equity Units", :website=>"https://www.changehealthcare.com"}
+{:name=>"China Index Holdings Limited", :website=>"https://ir.chinaindexholdings.com"}
+{:name=>"Cloudera", :website=>"https://www.cloudera.com"}
+{:name=>"ClearSign Technologies Corporation", :website=>"https://clearsign.com"}
+{:name=>"CLPS Incorporation", :website=>"ir.clpsglobal.com"}
+{:name=>"ClearOne Inc. (DE)", :website=>"https://www.clearone.com"}
+{:name=>"CleanSpark", :website=>"https://www.cleanspark.com"}
+{:name=>"Clarivate Plc", :website=>"https://clarivate.com"}
+{:name=>"Cambium Networks Corporation", :website=>"https://www.cambiumnetworks.com"}
+{:name=>"Cheetah Mobile Inc.", :website=>"https://www.cmcm.com/en"}
+{:name=>"Comtech Telecommunications Corp.", :website=>"https://www.comtechtel.com/investor-relations"}
+{:name=>"Conduent Incorporated", :website=>"https://www.conduent.com"}
+{:name=>"ZW Data Action Technologies", :website=>"https://zdat.com"}
+{:name=>"Concentrix Corporation", :website=>"https://www.concentrix.com"}
+{:name=>"PC Connection", :website=>"https://www.pcconnection.com/IPA/Account/Login.htm"}
+{:name=>"Coinbase Global", :website=>"https://www.coinbase.com"}
+{:name=>"CommScope Holding Company", :website=>"https://www.commscope.com"}
+{:name=>"Compass", :website=>"https://www.compass.state.pa.us"}
+{:name=>"Coupa Software Incorporated", :website=>"https://www.coupa.com"}
+{:name=>"Computer Programs and Systems", :website=>"https://www.dnb.com/business-directory/company..."}
+{:name=>"Cree", :website=>"https://www.cree.com"}
+{:name=>"Creative Realities", :website=>"https://cri.com"}
+{:name=>"Salesforce.com Inc", :website=>"https://www.salesforce.com"}
+{:name=>"Cerence", :website=>"https://cerence.com"}
+{:name=>"Ceragon Networks Ltd.", :website=>"https://www.ceragon.com"}
+{:name=>"Corsair Gaming", :website=>"https://www.corsair.com/us/en/gaming"}
+{:name=>"Criteo S.A.", :website=>"https://www.criteo.com"}
+{:name=>"Cirrus Logic", :website=>"https://www.cirrus.com"}
+{:name=>"CrowdStrike Holdings", :website=>"https://www.crowdstrike.com"}
+{:name=>"Cisco Systems (DE)", :website=>"https://www.cisco.com"}
+{:name=>"CSG Systems International", :website=>"https://www.csgi.com"}
+{:name=>"Cornerstone OnDemand", :website=>"https://www.cornerstoneondemand.com"}
+{:name=>"CynergisTek", :website=>"https://cynergistek.com"}
+{:name=>"Computer Task Group", :website=>"https://www.ctg.com"}
+{:name=>"CooTek (Cayman) Inc.", :website=>"https://www.cootek.com"}
+{:name=>"Cantaloupe", :website=>"https://www.cantaloupe.com"}
+{:name=>"Custom Truck One Source", :website=>"https://www.customtruck.com"}
+{:name=>"Cognizant Technology Solutions Corporation", :website=>"https://www.cognizant.com"}
+{:name=>"Citrix Systems", :website=>"https://www.citrix.com"}
+{:name=>"Cuentas", :website=>"https://www.cuentas.com"}
+{:name=>"Commvault Systems", :website=>"https://www.commvault.com"}
+{:name=>"CVD Equipment Corporation", :website=>"https://www.cvdequipment.com"}
+{:name=>"CyberArk Software Ltd.", :website=>"https://www.cyberark.com"}
+{:name=>"CYREN Ltd.", :website=>"https://www.cyren.com"}
+{:name=>"Endava plc", :website=>"https://www.endava.com"}
+{:name=>"Diebold Nixdorf Incorporated", :website=>"https://www.dieboldnixdorf.com"}
+{:name=>"Dropbox", :website=>"https://www.dropbox.com"}
+{:name=>"Duck Creek Technologies", :website=>"https://www.duckcreek.com"}
+{:name=>"3D Systems Corporation", :website=>"https://www.3dsystems.com"}
+{:name=>"Datadog", :website=>"https://www.datadoghq.com"}
+{:name=>"Dell Technologies Inc", :website=>"https://www.delltechnologies.com"}
+{:name=>"Digi International", :website=>"https://www.digi.com"}
+{:name=>"Digital Ally", :website=>"https://www.digitalallyinc.com"}
+{:name=>"DHI Group", :website=>"https://dhigroupinc.com"}
+{:name=>"Diodes Incorporated", :website=>"https://www.diodes.com"}
+{:name=>"Dolby Laboratories", :website=>"https://www.dolby.com"}
+{:name=>"DLH Holdings Corp.", :website=>"https://www.dlhcorp.com"}
+{:name=>"Deluxe Corporation", :website=>"https://www.deluxe.com"}
+{:name=>"Desktop Metal", :website=>"https://www.desktopmetal.com"}
+{:name=>"Digimarc Corporation", :website=>"https://www.digimarc.com"}
+{:name=>"Digital Media Solutions", :website=>"https://digitalmediasolutions.com"}
+{:name=>"Dun & Bradstreet Holdings", :website=>"https://www.merriam-webster.com/dictionary/dun"}
+{:name=>"DigitalOcean Holdings", :website=>"https://www.digitalocean.com"}
+{:name=>"DocuSign", :website=>"https://www.docusign.com"}
+{:name=>"Domo Inc.", :website=>"https://www.domo.com"}
+{:name=>"Amdocs Limited", :website=>"https://www.amdocs.com"}
+{:name=>"DouYu International Holdings Limited ADS", :website=>"https://ir.douyu.com"}
+{:name=>"DAQO New Energy Corp.", :website=>"www.dqsolar.com"}
+{:name=>"Viant Technology", :website=>"https://www.viantinc.com"}
+{:name=>"DSP Group", :website=>"https://www.dspg.com"}
+{:name=>"Dynatrace", :website=>"https://www.dynatrace.com"}
+{:name=>"Datasea", :website=>"www.datasea.com"}
+{:name=>"Data Storage Corporation", :website=>"https://www.datastoragecorp.com"}
+{:name=>"Fangdd Network Group Ltd.", :website=>"https://ir.fangdd.com/investor-relations"}
+{:name=>"Duos Technologies Group", :website=>"https://www.duostechnologies.com"}
+{:name=>"DoubleVerify Holdings", :website=>"https://doubleverify.com"}
+{:name=>"DXC Technology Company", :website=>"https://www.dxc.com/us/en"}
+{:name=>"Electronic Arts", :website=>"https://www.ea.com"}
+{:name=>"Eventbrite", :website=>"https://www.eventbrite.com"}
+{:name=>"Ebix", :website=>"https://www.ebix.com"}
+{:name=>"Ebang International Holdings", :website=>"https://ir.ebang.com.cn/investor-relations"}
+{:name=>"ChannelAdvisor Corporation", :website=>"https://www.channeladvisor.com"}
+{:name=>"Euronet Worldwide", :website=>"www.euronetworldwide.com"}
+{:name=>"Emerald Holding", :website=>"https://investor.emeraldx.com"}
+{:name=>"Equifax", :website=>"https://www.equifax.com"}
+{:name=>"eGain Corporation", :website=>"https://www.egain.com"}
+{:name=>"8x8 Inc", :website=>"https://www.8x8.com"}
+{:name=>"Eltek Ltd.", :website=>"https://www.nisteceltek.com"}
+{:name=>"EMCORE Corporation", :website=>"https://emcore.com"}
+{:name=>"Entegris", :website=>"https://www.entegris.com/en/home/about-us/locations.html"}
+{:name=>"Envestnet Inc", :website=>"https://www.envestnet.com"}
+{:name=>"Eos Energy Enterprises", :website=>"https://eosenergystorage.com"}
+{:name=>"EPAM Systems", :website=>"https://www.epam.com"}
+{:name=>"Bottomline Technologies", :website=>"https://bottomline.com"}
+{:name=>"Ericsson", :website=>"https://www.ericsson.com"}
+{:name=>"Energy Recovery", :website=>"https://energyrecovery.com"}
+{:name=>"Elastic N.V.", :website=>"https://elastic.co"}
+{:name=>"E2open Parent Holdings", :website=>"https://www.e2open.com"}
+{:name=>"Everbridge", :website=>"https://www.everbridge.com"}
+{:name=>"EverQuote", :website=>"https://www.everquote.com"}
+{:name=>"Evolving Systems", :website=>"https://www.evolving.com"}
+{:name=>"EVO Payments", :website=>"https://evopayments.com"}
+{:name=>"Evertec", :website=>"https://www.evertecinc.com/en"}
+{:name=>"ExlService Holdings", :website=>"https://www.exlservice.com"}
+{:name=>"Exterran Corporation", :website=>"https://www.exterran.com"}
+{:name=>"Facebook", :website=>"https://web.facebook.com"}
+{:name=>"FactSet Research Systems", :website=>"https://www.factset.com"}
+{:name=>"FireEye", :website=>"https://www.fireeye.com"}
+{:name=>"F5 Networks", :website=>"https://www.f5.com"}
+{:name=>"Fair Isaac Corproation", :website=>"https://www.fico.com"}
+{:name=>"Fiserv", :website=>"https://www.fiserv.com/en.html"}
+{:name=>"Five9", :website=>"https://www.five9.com"}
+{:name=>"Flex Ltd.", :website=>"https://flex.com"}
+{:name=>"Fluent", :website=>"https://getfluent.com"}
+{:name=>"FleetCor Technologies", :website=>"https://www.fleetcor.com"}
+{:name=>"Fly Leasing Limited", :website=>"https://www.flyleasing.com"}
+{:name=>"Flywire Corporation Voting", :website=>"https://www.flywire.com"}
+{:name=>"Forian", :website=>"https://forian.com"}
+{:name=>"FormFactor Inc. FormFactor", :website=>"https://www.formfactor.com"}
+{:name=>"Formula Systems (1985) Ltd.", :website=>"https://www.formulasystems.com"}
+{:name=>"Shift4 Payments", :website=>"https://www.shift4.com"}
+{:name=>"JFrog Ltd.", :website=>"https://jfrog.com"}
+{:name=>"Foresight Autonomous Holdings Ltd.", :website=>"https://www.foresightauto.com"}
+{:name=>"First Solar", :website=>"https://firstsolar.com"}
+{:name=>"Fastly", :website=>"https://www.fastly.com"}
+{:name=>"Federal Signal Corporation", :website=>"https://www.fedsig.com"}
+{:name=>"Fortress Transportation and Infrastructure Investors LLC", :website=>"https://www.ftandi.com"}
+{:name=>"FTC Solar", :website=>"https://ftcsolar.com"}
+{:name=>"Future FinTech Group", :website=>"https://www.ftftex.com"}
+{:name=>"GAN Limited", :website=>"https://gan.com"}
+{:name=>"Global Blue Group Holding AG", :website=>"https://www.globalblue.com/corporate"}
+{:name=>"Greenbox POS", :website=>"https://www.greenboxpos.com"}
+{:name=>"GoDaddy", :website=>"https://www.godaddy.com"}
+{:name=>"Green Dot Corporation $0.001 par value", :website=>"https://www.greendot.com/"}
+{:name=>"GoodRx Holdings", :website=>"https://www.goodrx.com"}
+{:name=>"GDS Holdings Limited ADS", :website=>"https://gdsholdingsltd.gcs-web.com"}
+{:name=>"Grid Dynamics Holdings", :website=>"https://www.griddynamics.com"}
+{:name=>"General Finance Corporation Cumulative Redeemable Perpetual", :website=>"bloomberg.com"}
+{:name=>"General Finance Corporation 7.875% Senior Notes due 2025", :website=>"bloomberg.com"}
+{:name=>"GigaMedia Limited", :website=>"www.gigamedia.com.tw"}
+{:name=>"Gilat Satellite Networks Ltd.", :website=>"https://www.gilat.com"}
+{:name=>"Global-E Online Ltd.", :website=>"https://www.global-e.com"}
+{:name=>"TD Holdings", :website=>"https://www.td-holdings.co.jp/en"}
+{:name=>"Alphabet Inc. Class C Capital Stock", :website=>"https://www.google.com/"}
+{:name=>"Alphabet", :website=>"https://www.alphabet.com/en-ww/company"}
+{:name=>"Groupon", :website=>"https://www.groupon.com"}
+{:name=>"GSI Technology", :website=>"https://www.gsitechnology.com"}
+{:name=>"GreenSky", :website=>"https://www.greensky.com"}
+{:name=>"Glory Star New Media Group Holdings Limited", :website=>"ir.yaoshixinghui.com"}
+{:name=>"Chart Industries", :website=>"https://www.chartindustries.com"}
+{:name=>"GTY Technology Holdings", :website=>"https://www.gtytechnology.com"}
+{:name=>"GSE Systems", :website=>"www.gses.com"}
+{:name=>"Guidewire Software", :website=>"https://www.guidewire.com"}
+{:name=>"Hayward Holdings", :website=>"https://investor.hayward.com/investor-news/news..."}
+{:name=>"Hackett Group Inc (The).", :website=>"https://www.thehackettgroup.com"}
+{:name=>"H&E Equipment Services", :website=>"https://www.he-equipment.com/"}
+{:name=>"Heritage Global", :website=>"https://www.hgpauction.com"}
+{:name=>"HeadHunter Group PLC", :website=>"https://investor.hh.ru"}
+{:name=>"Himax Technologies Inc.", :website=>"https://www.himax.com.tw"}
+{:name=>"Harmonic", :website=>"https://www.harmonicinc.com"}
+{:name=>"HP", :website=>"https://www.hp.com/us-en/home.html"}
+{:name=>"HireQuest (DE)", :website=>"https://www.hirequest.com"}
+{:name=>"Herc Holdings", :website=>"https://ir.hercrentals.com"}
+{:name=>"Heidrick & Struggles International", :website=>"https://www.heidrick.com"}
+{:name=>"Hudson Global", :website=>"https://hudsonglobalscholars.com"}
+{:name=>"HubSpot", :website=>"https://www.hubspot.com"}
+{:name=>"IBEX Limited", :website=>"https://www.ibex.co"}
+{:name=>"International Business Machines Corporation", :website=>"https://www.ibm.com/us-en"}
+{:name=>"Ichor Holdings", :website=>"www.ichorsystems.com"}
+{:name=>"iClick Interactive Asia Group Limited", :website=>"https://www.i-click.com"}
+{:name=>"Intellicheck", :website=>"https://intellicheck.com"}
+{:name=>"IEC Electronics Corp.", :website=>"https://www.iec-electronics.com"}
+{:name=>"India Globalization Capital", :website=>"igcinc.us"}
+{:name=>"Information Services Group Inc. Information Services Group", :website=>"https://isg-one.com"}
+{:name=>"i3 Verticals", :website=>"https://www.i3verticals.com"}
+{:name=>"Immersion Corporation", :website=>"https://www.immersion.com"}
+{:name=>"ChipMOS TECHNOLOGIES INC.", :website=>"https://www.chipmos.com/index-en.aspx"}
+{:name=>"International Money Express", :website=>"https://corporate.intermexonline.com/en"}
+{:name=>"IHS Markit Ltd.", :website=>"https://ihsmarkit.com"}
+{:name=>"Infosys Limited", :website=>"https://www.infosys.com"}
+{:name=>"Innodata", :website=>"https://innodata.com"}
+{:name=>"Inovalon Holdings", :website=>"https://www.inovalon.com"}
+{:name=>"Inpixon", :website=>"https://www.inpixon.com"}
+{:name=>"Intelligent Systems Corporation", :website=>"intelsys.com"}
+{:name=>"Intel Corporation", :website=>"https://www.intel.com"}
+{:name=>"inTest Corporation", :website=>"https://www.intest.com"}
+{:name=>"Intuit", :website=>"https://www.intuit.com"}
+{:name=>"Inuvo Inc.", :website=>"https://inuvo.com"}
+{:name=>"Identiv", :website=>"https://www.identiv.com"}
+{:name=>"Professional Diversity Network", :website=>"https://www.prodivnet.com"}
+{:name=>"Interpublic Group of Companies Inc", :website=>"https://www.interpublic.com"}
+{:name=>"IPG Photonics Corporation", :website=>"https://www.ipgphotonics.com"}
+{:name=>"iQIYI Inc.", :website=>"https://www.iq.com"}
+{:name=>"Issuer Direct Corporation", :website=>"https://www.issuerdirect.com"}
+{:name=>"Insignia Systems", :website=>"https://insigniasystems.com"}
+{:name=>"iSun", :website=>"https://isunenergy.com"}
+{:name=>"Ituran Location and Control Ltd.", :website=>"https://www.ituranusa.com"}
+{:name=>"IZEA Worldwide", :website=>"https://izea.com"}
+{:name=>"Jamf Holding Corp.", :website=>"https://www.jamf.com"}
+{:name=>"Jabil", :website=>"https://www.jabil.com"}
+{:name=>"j2 Global", :website=>"https://www.j2global.com"}
+{:name=>"Aurora Mobile Limited", :website=>"https://www.bloomberg.com/profile/company/JG:US"}
+{:name=>"Jack Henry & Associates", :website=>"https://www.jackhenry.com"}
+{:name=>"JinkoSolar Holding Company Limited", :website=>"https://www.jinkosolar.com/en"}
+{:name=>"Juniper Networks", :website=>"https://www.juniper.net"}
+{:name=>"GEE Group", :website=>"https://www.geegroup.com"}
+{:name=>"51job Inc.", :website=>"https://ir.51job.com/ir/php/2020/PrsReleaseq03162020.php"}
+{:name=>"Jianpu Technology Inc.", :website=>"ir.jianpu.ai"}
+{:name=>"Kadant Inc", :website=>"https://www.kadant.com"}
+{:name=>"Karooooo Ltd.", :website=>"https://www.karooooo.com"}
+{:name=>"Kubient", :website=>"https://kubient.com"}
+{:name=>"Kingsoft Cloud Holdings Limited", :website=>"https://en.ksyun.com"}
+{:name=>"Kelly Services", :website=>"https://www.kellyservices.com"}
+{:name=>"Kelly Services Inc.", :website=>"https://www.kellyservices.com"}
+{:name=>"Kforce", :website=>"https://www.kforce.com"}
+{:name=>"Korn Ferry", :website=>"https://www.kornferry.com"}
+{:name=>"Kulicke and Soffa Industries", :website=>"https://www.kns.com"}
+{:name=>"Kaleyra", :website=>"https://www.kaleyra.com"}
+{:name=>"KnowBe4", :website=>"https://www.knowbe4.com"}
+{:name=>"Key Tronic Corporation", :website=>"https://www.keytronic.com"}
+{:name=>"KVH Industries", :website=>"https://www.kvh.com"}
+{:name=>"nLIGHT", :website=>"https://www.nlight.net"}
+{:name=>"Luminar Technologies Inc.", :website=>"https://www.luminartech.com"}
+{:name=>"Lydall", :website=>"https://www.lydall.com"}
+{:name=>"Leidos Holdings", :website=>"https://www.leidos.com"}
+{:name=>"SemiLEDS Corporation", :website=>"https://www.semileds.com"}
+{:name=>"Littelfuse", :website=>"https://www.littelfuse.com"}
+{:name=>"Linx S.A.", :website=>"https://www.linx.com.br/"}
+{:name=>"Lumentum Holdings", :website=>"https://www.lumentum.com"}
+{:name=>"LIZHI INC.", :website=>"https://www.lizhiinc.com/en-us/home.html"}
+{:name=>"Logitech International S.A.", :website=>"https://ir.logitech.com"}
+{:name=>"LivePerson", :website=>"https://www.liveperson.com"}
+{:name=>"Lam Research Corporation", :website=>"https://www.lamresearch.com"}
+{:name=>"Lattice Semiconductor Corporation", :website=>"https://www.latticesemi.com"}
+{:name=>"ManpowerGroup", :website=>"www.manpowergroup.com"}
+{:name=>"Manhattan Associates", :website=>"https://www.manh.com"}
+{:name=>"ManTech International Corporation $0.01 Par Value", :website=>"https://mantech.com"}
+{:name=>"McAfee Corp.", :website=>"https://www.mcafee.com"}
+{:name=>"Microchip Technology Incorporated", :website=>"https://www.microchip.com"}
+{:name=>"Moody's Corporation", :website=>"https://www.moodys.com"}
+{:name=>"MongoDB", :website=>"https://www.mongodb.com"}
+{:name=>"MDC Partners Inc. CL A Subordinate", :website=>"https://www.mdc-partners.com"}
+{:name=>"Medallia", :website=>"https://www.medallia.com"}
+{:name=>"Allscripts Healthcare Solutions", :website=>"https://www.allscripts.com"}
+{:name=>"Manulife Financial Corporation", :website=>"https://www.manulife.com"}
+{:name=>"Micro Focus Intl PLC ADS each representing One Ord Sh", :website=>"https://www.microfocus.com/"}
+{:name=>"Mercurity Fintech Holding Inc. ADS", :website=>"https://www.mercurity.com"}
+{:name=>"Magic Software Enterprises Ltd.", :website=>"https://www.magicsoftware.com"}
+{:name=>"Magnite", :website=>"https://www.magnite.com"}
+{:name=>"McGrath RentCorp", :website=>"https://www.mgrc.com"}
+{:name=>"MICT", :website=>"https://www.mict.com.ph"}
+{:name=>"Mimecast Limited", :website=>"https://www.mimecast.com"}
+{:name=>"MIND Technology (DE)", :website=>"https://mind-technology.com"}
+{:name=>"MIND Technology Inc.", :website=>"https://mind-technology.com"}
+{:name=>"Mitek Systems", :website=>"https://www.miteksystems.com"}
+{:name=>"MiX Telematics Limited", :website=>"https://www.mixtelematics.com"}
+{:name=>"MIND C.T.I. Ltd.", :website=>"https://mindcti.com"}
+{:name=>"Manitex International", :website=>"https://www.manitexinternational.com"}
+{:name=>"Model N", :website=>"https://www.modeln.com"}
+{:name=>"Momo Inc.", :website=>"https://ir.immomo.com/investor-overview"}
+{:name=>"Morningstar", :website=>"https://www.morningstar.com"}
+{:name=>"MoSys", :website=>"https://mosys.com"}
+{:name=>"Moxian", :website=>"https://www.moxianglobal.com"}
+{:name=>"Monolithic Power Systems", :website=>"https://www.monolithicpower.com"}
+{:name=>"Everspin Technologies", :website=>"https://www.everspin.com"}
+{:name=>"Marin Software Incorporated", :website=>"www.marinsoftware.com"}
+{:name=>"Marvell Technology", :website=>"https://www.marvell.com"}
+{:name=>"MSCI Inc", :website=>"https://www.msci.com"}
+{:name=>"Microsoft Corporation", :website=>"https://www.microsoft.com"}
+{:name=>"Motorsport Games", :website=>"https://forzamotorsport.net"}
+{:name=>"Motorola Solutions", :website=>"https://www.motorolasolutions.com"}
+{:name=>"Datto Holding Corp.", :website=>"https://www.datto.com"}
+{:name=>"MicroStrategy Incorporated", :website=>"https://www.microstrategy.com"}
+{:name=>"Materialise NV", :website=>"https://www.materialise.com"}
+{:name=>"MACOM Technology Solutions Holdings", :website=>"https://www.macom.com"}
+{:name=>"Micron Technology", :website=>"https://www.micron.com"}
+{:name=>"Magnachip Semiconductor Corporation", :website=>"https://www.magnachip.com"}
+{:name=>"Maxim Integrated Products", :website=>"https://www.maximintegrated.com"}
+{:name=>"MaxLinear", :website=>"www.maxlinear.com"}
+{:name=>"My Size", :website=>"https://mysizeid.com"}
+{:name=>"National Instruments Corporation", :website=>"https://www.ni.com"}
+{:name=>"National CineMedia", :website=>"www.ncm.com"}
+{:name=>"nCino", :website=>"https://www.ncino.com"}
+{:name=>"The9 Limited", :website=>"https://www.the9.com/en"}
+{:name=>"Cloudflare", :website=>"https://www.cloudflare.com"}
+{:name=>"Net Element", :website=>"https://www.netelement.com"}
+{:name=>"New Relic", :website=>"https://newrelic.com"}
+{:name=>"NICE Ltd", :website=>"https://www.nice.com"}
+{:name=>"NortonLifeLock", :website=>"https://www.nortonlifelock.com"}
+{:name=>"Nano Dimension Ltd.", :website=>"https://www.nano-di.com"}
+{:name=>"Nokia Corporation Sponsored", :website=>"https://www.nokia.com"}
+{:name=>"ServiceNow", :website=>"https://www.servicenow.com"}
+{:name=>"NeoPhotonics Corporation", :website=>"www.neophotonics.com"}
+{:name=>"Insight Enterprises", :website=>"https://www.insight.com"}
+{:name=>"Insperity", :website=>"https://www.insperity.com"}
+{:name=>"NetApp", :website=>"https://www.netapp.com"}
+{:name=>"NetScout Systems", :website=>"https://www.netscout.com"}
+{:name=>"Nutanix", :website=>"https://www.nutanix.com"}
+{:name=>"NetSol Technologies Inc.", :website=>"https://netsoltech.com"}
+{:name=>"Nuance Communications", :website=>"https://www.nuance.com"}
+{:name=>"NVIDIA Corporation", :website=>"https://www.nvidia.com/en-us"}
+{:name=>"NVE Corporation", :website=>"https://www.nve.com"}
+{:name=>"NXP Semiconductors N.V.", :website=>"https://www.nxp.com"}
+{:name=>"Oblong", :website=>"https://www.oblong.com"}
+{:name=>"OneConnect Financial Technology Co. Ltd.", :website=>"https://www.ocft.com.sg"}
+{:name=>"Orbital Energy Group", :website=>"https://www.orbitalenergygroup.com"}
+{:name=>"O2Micro International Limited", :website=>"www.o2micro.com"}
+{:name=>"Okta", :website=>"https://www.okta.com"}
+{:name=>"The OLB Group", :website=>"https://olb.com"}
+{:name=>"Universal Display Corporation", :website=>"https://oled.com"}
+{:name=>"Olo", :website=>"https://www.olo.com"}
+{:name=>"Omnicom Group", :website=>"https://www.omnicomgroup.com"}
+{:name=>"ON Semiconductor Corporation", :website=>"https://www.onsemi.com"}
+{:name=>"1Life Healthcare", :website=>"https://www.onemedical.com/privacy"}
+{:name=>"ON24", :website=>"https://www.on24.com"}
+{:name=>"Onto Innovation", :website=>"https://ontoinnovation.com"}
+{:name=>"Opera Limited", :website=>"https://investor.opera.com"}
+{:name=>"Oracle Corporation", :website=>"https://www.oracle.com"}
+{:name=>"OneSpan", :website=>"https://www.onespan.com"}
+{:name=>"One Stop Systems", :website=>"https://www.onestopsystems.com"}
+{:name=>"Open Text Corporation", :website=>"https://www.opentext.com"}
+{:name=>"PagSeguro Digital Ltd.", :website=>"https://investors.pagseguro.com"}
+{:name=>"Palo Alto Networks", :website=>"https://www.paloaltonetworks.com"}
+{:name=>"PAR Technology Corporation", :website=>"https://www.partech.com"}
+{:name=>"UiPath", :website=>"https://www.uipath.com"}
+{:name=>"Paymentus Holdings", :website=>"https://www.paymentus.com"}
+{:name=>"Paya Holdings", :website=>"https://paya.com"}
+{:name=>"Paycom Software", :website=>"https://paycom.com"}
+{:name=>"Powerbridge Technologies Co. Ltd.", :website=>"https://www.powerbridge.com/en"}
+{:name=>"Procore Technologies", :website=>"https://www.procore.com"}
+{:name=>"PCTEL", :website=>"https://www.pctel.com"}
+{:name=>"Paylocity Holding Corporation", :website=>"https://www.paylocity.com"}
+{:name=>"Park City Group", :website=>"https://parkcitygroup.com"}
+{:name=>"PagerDuty", :website=>"https://www.pagerduty.com"}
+{:name=>"PDF Solutions", :website=>"https://www.pdf.com"}
+{:name=>"Pegasystems", :website=>"https://www.pega.com"}
+{:name=>"Perion Network Ltd.", :website=>"https://www.perion.com"}
+{:name=>"Proofpoint", :website=>"https://www.proofpoint.com"}
+{:name=>"Phunware", :website=>"https://www.phunware.com"}
+{:name=>"Phunwares", :website=>"https://www.phunware.com"}
+{:name=>"Ping Identity Holding Corp.", :website=>"https://www.pingidentity.com/en"}
+{:name=>"ShiftPixy", :website=>"https://shiftpixy.com"}
+{:name=>"Photronics", :website=>"https://www.photronics.com"}
+{:name=>"Anaplan", :website=>"https://www.anaplan.com"}
+{:name=>"Playtika Holding Corp.", :website=>"https://www.playtika.com"}
+{:name=>"Palantir Technologies", :website=>"https://www.palantir.com"}
+{:name=>"ePlus", :website=>"https://www.eplus.com"}
+{:name=>"Plexus Corp.", :website=>"https://www.plexus.com"}
+{:name=>"Power Integrations", :website=>"https://www.power.com"}
+{:name=>"PRA Group", :website=>"https://www.pragroup.com"}
+{:name=>"Porch Group", :website=>"https://porchgroup.com"}
+{:name=>"Perficient", :website=>"https://www.perficient.com"}
+{:name=>"PROG Holdings", :website=>"https://investor.progleasing.com/news/news-details/..."}
+{:name=>"Progress Software Corporation (DE)", :website=>"https://www.progress.com"}
+{:name=>"PROS Holdings", :website=>"https://pros.com"}
+{:name=>"Priority Technology Holdings", :website=>"https://prth.com"}
+{:name=>"Pure Storage", :website=>"https://www.purestorage.com"}
+{:name=>"Pintec Technology Holdings Limited", :website=>"https://www.pintec.com"}
+{:name=>"PTC", :website=>"https://www.ptc.com"}
+{:name=>"PubMatic", :website=>"https://pubmatic.com"}
+{:name=>"Pixelworks Inc.", :website=>"https://www.pixelworks.com"}
+{:name=>"QAD", :website=>"https://www.qad.com"}
+{:name=>"QAD Inc.", :website=>"https://www.qad.com"}
+{:name=>"QUALCOMM Incorporated", :website=>"https://www.qualcomm.com"}
+{:name=>"Qudian Inc.", :website=>"https://ir.qudian.com/investor-relations"}
+{:name=>"Qualys", :website=>"https://www.qualys.com"}
+{:name=>"Quantum Corporation", :website=>"https://www.quantum.com"}
+{:name=>"QuinStreet", :website=>"https://www.quinstreet.com"}
+{:name=>"Qutoutiao Inc.", :website=>"https://ir.qutoutiao.net"}
+{:name=>"Q2 Holdings", :website=>"investors.q2ebanking.com/investor-relations/overview/default.aspx"}
+{:name=>"QuickLogic Corporation", :website=>"https://www.quicklogic.com"}
+{:name=>"Qumu Corporation", :website=>"https://qumu.com"}
+{:name=>"Quotient Technology", :website=>"https://www.quotient.com"}
+{:name=>"Cloopen Group Holding Limited", :website=>"https://ir.yuntongxun.com"}
+{:name=>"LiveRamp Holdings", :website=>"https://liveramp.com"}
+{:name=>"Ribbon Communications", :website=>"https://ribboncommunications.com"}
+{:name=>"Rubicon Technology", :website=>"www.rubicontechnology.com"}
+{:name=>"Roblox Corporation", :website=>"https://www.roblox.com"}
+{:name=>"Red Cat Holdings", :website=>"https://www.redcatholdings.com"}
+{:name=>"Rent-A-Center", :website=>"https://www.rentacenter.com"}
+{:name=>"Radcom Ltd.", :website=>"https://radcom.com"}
+{:name=>"Red Violet", :website=>"https://www.redviolet.com"}
+{:name=>"Radware Ltd.", :website=>"https://www.radware.com"}
+{:name=>"Rekor Systems", :website=>"https://www.rekor.ai"}
+{:name=>"Richardson Electronics Ltd.", :website=>"https://www.rell.com"}
+{:name=>"Renren Inc.", :website=>"www.renren-inc.com/en"}
+{:name=>"Resonant", :website=>"www.resonant.com"}
+{:name=>"Robert Half International", :website=>"https://www.roberthalf.com"}
+{:name=>"Riot Blockchain Inc.", :website=>"https://www.riotblockchain.com"}
+{:name=>"Rambus", :website=>"https://www.rambus.com"}
+{:name=>"Rimini Street Inc. (DE)", :website=>"https://www.riministreet.com"}
+{:name=>"RingCentral", :website=>"https://www.ringcentral.com"}
+{:name=>"RealNetworks", :website=>"https://realnetworks.com"}
+{:name=>"Rollins", :website=>"www.rollins.edu"}
+{:name=>"Repay Holdings Corporation", :website=>"https://www.repay.com"}
+{:name=>"Rapid7", :website=>"https://www.rapid7.com"}
+{:name=>"Research Solutions Inc", :website=>"https://researchsolutions.investorroom.com"}
+{:name=>"Rexnord Corporation", :website=>"https://rexnordcorporation.com"}
+{:name=>"Rackspace Technology", :website=>"https://www.rackspace.com"}
+{:name=>"Sabre Corporation", :website=>"https://www.sabre.com"}
+{:name=>"SCIENCE APPLICATIONS INTERNATIONAL CORPORATION", :website=>"https://www.saic.com"}
+{:name=>"SailPoint Technologies Holdings", :website=>"https://www.sailpoint.com"}
+{:name=>"Sanmina Corporation", :website=>"https://www.sanmina.com"}
+{:name=>"SAP  SE ADS", :website=>"https://money.tmx.com/en/quote/SAP:US/news"}
+{:name=>"EchoStar  Corporation", :website=>"echostar.com"}
+{:name=>"Socket Mobile", :website=>"https://www.socketmobile.com"}
+{:name=>"SciPlay Corporation", :website=>"https://www.sciplay.com"}
+{:name=>"ScanSource", :website=>"https://www.scansource.com"}
+{:name=>"SecureWorks Corp.", :website=>"https://www.secureworks.com"}
+{:name=>"Schrodinger", :website=>"https://www.schrodinger.com"}
+{:name=>"Sea Limited", :website=>"https://sealimited.com"}
+{:name=>"SeaChange International", :website=>"https://www.seachange.com"}
+{:name=>"SolarEdge Technologies", :website=>"https://www.solaredge.com"}
+{:name=>"SEMrush Holdings", :website=>"https://www.semrush.com/company"}
+{:name=>"Safe-T Group Ltd.", :website=>"https://www.safe-t.com"}
+{:name=>"Fang Holdings", :website=>"https://ir.fang.com"}
+{:name=>"Signify Health", :website=>"https://www.signifyhealth.com"}
+{:name=>"SMART Global Holdings Inc.", :website=>"https://ir.smartm.com"}
+{:name=>"Sigma Labs", :website=>"https://sigmalabsinc.com"}
+{:name=>"SigmaTron International", :website=>"https://sigmatronintl.com"}
+{:name=>"SGOCO Group Ltd (Cayman Islands)", :website=>"www.sgocogroup.com"}
+{:name=>"Shoals Technologies Group", :website=>"https://investors.shoals.com/overview/default.aspx"}
+{:name=>"SharpSpring", :website=>"https://sharpspring.com"}
+{:name=>"Silicom Ltd", :website=>"https://www.silicom-usa.com"}
+{:name=>"Silicon Motion Technology Corporation", :website=>"https://www.siliconmotion.com"}
+{:name=>"SiTime Corporation", :website=>"https://www.sitime.com"}
+{:name=>"Scienjoy Holding Corporation", :website=>"https://www.bloomberg.com/profile/company/HHHHU:US"}
+{:name=>"Skillz", :website=>"https://www.skillz.com"}
+{:name=>"SkyWater Technology", :website=>"https://www.skywatertechnology.com"}
+{:name=>"Silicon Laboratories", :website=>"https://www.silabs.com"}
+{:name=>"Sun Life Financial", :website=>"https://www.sunlife.com/us"}
+{:name=>"Simulations Plus", :website=>"https://www.simulations-plus.com"}
+{:name=>"Smartsheet", :website=>"https://www.smartsheet.com"}
+{:name=>"Super Micro Computer", :website=>"https://www.supermicro.com/en"}
+{:name=>"Smith Micro Software", :website=>"https://www.smithmicro.com"}
+{:name=>"Semtech Corporation", :website=>"https://www.semtech.com"}
+{:name=>"Snap", :website=>"https://www.fns.usda.gov/snap"}
+{:name=>"Synchronoss Technologies", :website=>"https://synchronoss.com"}
+{:name=>"Snowflake", :website=>"https://www.snowflake.com"}
+{:name=>"Synopsys", :website=>"https://www.synopsys.com"}
+{:name=>"Synnex Corporation", :website=>"https://www.synnexcorp.com"}
+{:name=>"Sogou Inc.", :website=>"ir.sogou.com"}
+{:name=>"Sohu.com Limited", :website=>"https://investors.sohu.com/investor-relations"}
+{:name=>"Renesola Ltd.", :website=>"www.renesola.com"}
+{:name=>"SuperCom Ltd. (Israel)", :website=>"https://www.supercom.com"}
+{:name=>"SPI Energy Co. Ltd.", :website=>"www.spigroupsinfo.com"}
+{:name=>"Splunk", :website=>"https://www.splunk.com"}
+{:name=>"Sapiens International Corporation N.V. (Cayman Islands)", :website=>"https://www.sapiens.com"}
+{:name=>"Support.com", :website=>"https://www.support.com"}
+{:name=>"SPS Commerce", :website=>"https://www.spscommerce.com"}
+{:name=>"Sprout Social Inc", :website=>"https://sproutsocial.com"}
+{:name=>"SunPower Corporation", :website=>"https://us.sunpower.com"}
+{:name=>"Square", :website=>"https://squareup.com"}
+{:name=>"Sequans Communications S.A.", :website=>"https://www.sequans.com"}
+{:name=>"Squarespace", :website=>"https://www.squarespace.com"}
+{:name=>"SRAX", :website=>"https://srax.com"}
+{:name=>"ServiceSource International", :website=>"https://www.servicesource.com"}
+{:name=>"Soaring Eagle Acquisition", :website=>"https://eagleequityptnrs.com"}
+{:name=>"SS&C Technologies Holdings", :website=>"https://www.britannica.com/topic/SS"}
+{:name=>"SilverSun Technologies", :website=>"https://www.silversuntech.com"}
+{:name=>"ShotSpotter", :website=>"https://www.shotspotter.com"}
+{:name=>"Stratasys Ltd. (Israel)", :website=>"https://www.stratasys.com"}
+{:name=>"Staffing 360 Solutions (DE)", :website=>"https://www.staffing360solutions.com"}
+{:name=>"Stem", :website=>"https://www.stem.com"}
+{:name=>"STMicroelectronics N.V.", :website=>"https://www.st.com"}
+{:name=>"StoneCo Ltd.", :website=>"https://www.stone.co"}
+{:name=>"Streamline Health Solutions", :website=>"https://streamlinehealth.net"}
+{:name=>"Seagate Technology Holdings PLC (Ireland)", :website=>"https://www.seagate.com/"}
+{:name=>"Sumo Logic", :website=>"https://www.sumologic.com"}
+{:name=>"Sunworks", :website=>"https://sunworksusa.com"}
+{:name=>"Switch", :website=>"https://www.nintendo.com/switch"}
+{:name=>"SolarWinds Corporation", :website=>"https://www.solarwinds.com"}
+{:name=>"Skyworks Solutions", :website=>"https://www.skyworksinc.com"}
+{:name=>"So-Young International Inc.", :website=>"https://www.bloomberg.com/profile/company/SY:US"}
+{:name=>"Sykes Enterprises Incorporated", :website=>"https://www.sykes.com"}
+{:name=>"Synaptics Incorporated $0.001 Par Value", :website=>"https://www.synaptics.com"}
+{:name=>"Systemax", :website=>"https://www.systemax.com"}
+{:name=>"TransAct Technologies Incorporated", :website=>"www.transact-tech.com"}
+{:name=>"Taitron Components Incorporated", :website=>"www.taitroncomponents.com"}
+{:name=>"Taoping Inc.", :website=>"https://www.bloomberg.com/profile/company/TAOP:US"}
+{:name=>"TrueBlue", :website=>"https://trueblue.jetblue.com"}
+{:name=>"Tucows", :website=>"https://tucows.com"}
+{:name=>"Teradata Corporation", :website=>"https://www.teradata.com"}
+{:name=>"Atlassian Corporation Plc", :website=>"https://www.atlassian.com"}
+{:name=>"Tenable Holdings", :website=>"https://www.tenable.com"}
+{:name=>"TESSCO Technologies Incorporated", :website=>"https://www.tessco.com"}
+{:name=>"Textainer Group Holdings Limited", :website=>"https://www.textainer.com"}
+{:name=>"Talend S.A.", :website=>"https://www.talend.com"}
+{:name=>"Telos Corporation", :website=>"https://www.telos.com"}
+{:name=>"TriNet Group", :website=>"https://www.trinet.com"}
+{:name=>"TPI Composites", :website=>"https://www.tpicomposites.com"}
+{:name=>"Triterras", :website=>"https://triterras.com"}
+{:name=>"Troika Media Group", :website=>"https://www.thetmgrp.com"}
+{:name=>"Transcat", :website=>"https://www.transcat.com"}
+{:name=>"TriMas Corporation", :website=>"https://www.trimascorp.com"}
+{:name=>"Trio-Tech International", :website=>"www.triotech.com"}
+{:name=>"Triton International Limited", :website=>"https://www.tritoninternational.com"}
+{:name=>"TransUnion", :website=>"https://www.transunion.com"}
+{:name=>"trivago N.V.", :website=>"https://www.trivago.com"}
+{:name=>"Tower Semiconductor Ltd.", :website=>"https://towersemi.com"}
+{:name=>"Taiwan Semiconductor Manufacturing Company Ltd.", :website=>"https://tsmc.com"}
+{:name=>"Townsquare Media", :website=>"www.townsquaremedia.com"}
+{:name=>"TSR", :website=>"https://www.thesimsresource.com"}
+{:name=>"The Trade Desk", :website=>"https://www.thetradedesk.com"}
+{:name=>"TTEC Holdings", :website=>"https://www.ttec.com"}
+{:name=>"TTM Technologies", :website=>"https://www.ttm.com"}
+{:name=>"Take-Two Interactive Software", :website=>"https://www.take2games.com"}
+{:name=>"Tufin Software Technologies Ltd.", :website=>"https://www.tufin.com"}
+{:name=>"Tuya Inc.", :website=>"https://www.tuya.com"}
+{:name=>"Twitter", :website=>"https://twitter.com"}
+{:name=>"Texas Instruments Incorporated", :website=>"https://www.ti.com"}
+{:name=>"Tyler Technologies", :website=>"https://www.tylertech.com"}
+{:name=>"Travelzoo", :website=>"https://www.travelzoo.com"}
+{:name=>"Unity Software", :website=>"https://unity.com"}
+{:name=>"Uber Technologies", :website=>"https://www.uber.com"}
+{:name=>"Ultra Clean Holdings", :website=>"https://uct.com"}
+{:name=>"Net 1 UEPS Technologies", :website=>"www.net1.com"}
+{:name=>"Ubiquiti", :website=>"https://www.ui.com"}
+{:name=>"Unisys Corporation New", :website=>"https://www.unisys.com"}
+{:name=>"Ultralife Corporation", :website=>"https://www.ultralifecorporation.com/ecommerce"}
+{:name=>"United Microelectronics Corporation (NEW)", :website=>"https://www.umc.com"}
+{:name=>"Upland Software", :website=>"https://uplandsoftware.com"}
+{:name=>"Upwork", :website=>"https://www.upwork.com"}
+{:name=>"United Rentals", :website=>"https://www.unitedrentals.com"}
+{:name=>"Usio", :website=>"https://usio.com"}
+{:name=>"Value Line", :website=>"https://valueline.com"}
+{:name=>"Veeco Instruments", :website=>"https://www.veeco.com"}
+{:name=>"Verb Technology Company", :website=>"https://www.verb.tech"}
+{:name=>"Veritone", :website=>"https://www.veritone.com"}
+{:name=>"Vertex", :website=>"https://www.vrtx.com"}
+{:name=>"VIA optronics AG", :website=>"https://via-optronics.com/en"}
+{:name=>"Viavi Solutions", :website=>"https://www.viavisolutions.com"}
+{:name=>"Vimeo", :website=>"https://vimeo.com"}
+{:name=>"Vmware", :website=>"https://www.vmware.com"}
+{:name=>"21Vianet Group Inc.", :website=>"ir.21vianet.com"}
+{:name=>"VOXX International Corporation", :website=>"https://www.voxxintl.com"}
+{:name=>"Varonis Systems", :website=>"https://www.varonis.com"}
+{:name=>"Verint Systems", :website=>"https://www.verint.com"}
+{:name=>"VeriSign", :website=>"https://www.verisign.com"}
+{:name=>"ViaSat", :website=>"https://www.viasat.com"}
+{:name=>"Energous Corporation", :website=>"https://www.energous.com"}
+{:name=>"Weibo Corporation", :website=>"ir.weibo.com/investor-overview"}
+{:name=>"Workday", :website=>"https://www.workday.com"}
+{:name=>"Western Digital Corporation", :website=>"https://www.westerndigital.com"}
+{:name=>"WEX", :website=>"https://www.wix.com"}
+{:name=>"Where Food Comes From", :website=>"wherefoodcomesfrom.com"}
+{:name=>"WiMi Hologram Cloud Inc.", :website=>"ir.wimiar.com"}
+{:name=>"Summit Wireless Technologies", :website=>"https://www.summitwireless.com"}
+{:name=>"Wipro Limited", :website=>"https://www.wipro.com"}
+{:name=>"Wix.com Ltd.", :website=>"https://www.wix.com"}
+{:name=>"Workiva", :website=>"https://www.workiva.com"}
+{:name=>"WISeKey International Holding AG", :website=>"https://www.wisekey.com"}
+{:name=>"Slack Technologies", :website=>"https://slack.com"}
+{:name=>"WillScot Mobile Mini Holdings Corp.", :website=>"https://www.willscot.com"}
+{:name=>"Wayside Technology Group", :website=>"https://www.waysidetechnology.com"}
+{:name=>"Waitr Holdings", :website=>"investors.waitrapp.com"}
+{:name=>"WidePoint Corporation", :website=>"https://www.widepoint.com"}
+{:name=>"Exela Technologies", :website=>"https://www.exelatech.com"}
+{:name=>"Xilinx", :website=>"https://www.xilinx.com"}
+{:name=>"Qualtrics International", :website=>"https://www.qualtrics.com"}
+{:name=>"Xunlei Limited", :website=>"https://www.xunlei.com"}
+{:name=>"Xperi Holding Corporation", :website=>"https://www.xperi.com"}
+{:name=>"Xerox Holdings Corporation", :website=>"https://www.xerox.com"}
+{:name=>"Yalla Group Limited", :website=>"https://www.yallatech.ae"}
+{:name=>"Yelp", :website=>"https://www.yelp.com"}
+{:name=>"Yext", :website=>"https://www.yext.com"}
+{:name=>"Yandex N.V.", :website=>"https://yandex.com"}
+{:name=>"JOYY Inc.", :website=>"https://ir.joyy.sg"}
+{:name=>"Zebra Technologies Corporation", :website=>"https://www.zebra.com"}
+{:name=>"Zedge Inc.", :website=>"https://www.zedge.net"}
+{:name=>"Zendesk", :website=>"https://www.zendesk.com"}
+{:name=>"Zepp Health Corporation", :website=>"https://www.zepp.com/us"}
+{:name=>"ZoomInfo Technologies", :website=>"https://www.zoominfo.com"}
+{:name=>"ZipRecruiter", :website=>"https://www.ziprecruiter.com"}
+{:name=>"Zix Corporation", :website=>"https://zix.com"}
+{:name=>"Zoom Video Communications", :website=>"https://zoom.us"}
+{:name=>"Zynga", :website=>"https://www.zynga.com"}
+{:name=>"Zscaler", :website=>"https://www.zscaler.com"}
+{:name=>"Zuora", :website=>"https://www.zuora.com"}

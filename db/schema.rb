@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_19_214937) do
+ActiveRecord::Schema.define(version: 2021_06_21_034111) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -34,6 +34,20 @@ ActiveRecord::Schema.define(version: 2021_06_19_214937) do
     t.index ["top_site_id"], name: "index_site_histories_on_top_site_id"
   end
 
+  create_table "stocks", force: :cascade do |t|
+    t.string "ticker"
+    t.string "name"
+    t.string "website"
+    t.float "market_cap"
+    t.string "country"
+    t.string "ipo_year"
+    t.string "sector"
+    t.integer "volume"
+    t.string "industry"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "top_sites", force: :cascade do |t|
     t.string "company_url"
     t.integer "global_rank"
@@ -43,6 +57,8 @@ ActiveRecord::Schema.define(version: 2021_06_19_214937) do
     t.float "reach_per_million"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.bigint "stock_id"
+    t.index ["stock_id"], name: "index_top_sites_on_stock_id"
   end
 
   create_table "traffics", force: :cascade do |t|
