@@ -2,6 +2,7 @@
   <thead>
     <tr>
       <th>Company</th>
+      <th>Stock </th>
       <th>Start rank</th>
       <th>End rank</th>
       <th>Country rank</th>
@@ -13,6 +14,7 @@
     <% @histories.each do |history| %>
       <tr>
         <td><%= link_to history.company_url, "https://alexa.com/siteinfo/#{history.company_url}#section_traffic", target: '_blank' %></td>
+        <td><%= history.top_site.stock.ticker %></td>
         <td><%= history.start_rank %></td>
         <td><%= history.end_rank %></td>
         <td><%= history.country_rank %>: <%= history.country %></td>
