@@ -9,4 +9,16 @@ class TopSite < ApplicationRecord
 
 	has_many :site_histories
 	belongs_to :stock
+
+	def self.date_range(start_date_str)
+		start_time = Time.parse(start_date_str)
+		dates = []
+		while(start_time < Time.now)
+			prev_date = start_time.strftime("%Y-%m-%d")
+			end_time = (start_time + 1.day).strftime("%Y-%m-%d")
+			start_time = start_time + 7.days
+			dates << [prev_date, end_time]
+		end
+		dates
+	end
 end

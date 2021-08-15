@@ -4,16 +4,20 @@ class ImportHistoryService
 			data = get_alexa_data(file_name)
 			data.each do |parsed|
 			  	top_site = TopSite.where(:company_url => parsed["company_url"]).first
-			  	parsed["top_site_id"] = top_site.id
-			  	site_history = top_site.site_histories.new(parsed)
-			  	site_history.save
-			    puts "saved: #{site_history.id}: #{top_site.company_url}"
+			  	if top_site.blank?
+			  		puts "site not imported #{parsed["company_url"]}"
+			  	else
+				  	parsed["top_site_id"] = top_site.id
+				  	site_history = top_site.site_histories.new(parsed)
+				  	site_history.save
+				    puts "saved: #{site_history.id}: #{top_site.company_url}"
+				end
 			end			
 		end
 
 		def get_alexa_data(file_name)
 			return @data if defined?@data
-			file_path = Rails.root.join("spec/controllers/histories/#{file_name}")
+			file_path = Rails.root.join("spec/controllers/#{file_name}")
 			data = []
 			File.open(file_path, "r") do |f|
 			  f.each_line do |line|
